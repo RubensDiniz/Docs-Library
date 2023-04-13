@@ -175,6 +175,25 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz#8be36a1f66f3265389e90b5f9c9962146758f728"
   integrity sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==
 
+"@starlightcms/js-sdk@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@starlightcms/js-sdk/-/js-sdk-1.1.0.tgz#f8da35578c67c45cbd5b13d6b4d608b3557b25b6"
+  integrity sha512-IoBwEk3SU/qk1FosH7a2jlZMT3YQ1rGajBUmrZ3UqkjTKUU2APUHukcRHGHiZ6oXDvHj/GCTbLrjs8aKJK9Eqg==
+
+"@starlightcms/next-sdk@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@starlightcms/next-sdk/-/next-sdk-1.0.1.tgz#8ab375db0c4e2e8447edebc84af732e688296dc3"
+  integrity sha512-zy94yiDIj8nkU6Oj9GUHaa4932/cbTTdjSBRpsfgoMxN4+jhinSikPSAVgo93VjkVCXvxaKGESwvewSeE//0fA==
+  dependencies:
+    "@starlightcms/react-sdk" "^1.1.0"
+
+"@starlightcms/react-sdk@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@starlightcms/react-sdk/-/react-sdk-1.1.0.tgz#f5efd48f27549d4ce30d113eb90c8ab4321a2868"
+  integrity sha512-lmxTs4dDlVVmZNHzNkdhjUZoiGJtoaiAKCYdDdM72Z3zq9Z+xIsI78H9CxqLDviup3I5VXzbvOC6ULo4G0ObXQ==
+  dependencies:
+    "@starlightcms/js-sdk" "^1.1.0"
+
 "@swc/helpers@0.4.14":
   version "0.4.14"
   resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.4.14.tgz#1352ac6d95e3617ccb7c1498ff019654f1e12a74"
